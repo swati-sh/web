@@ -1,0 +1,14 @@
+.dashboard-description {
+  letter-spacing: 2.29px;
+  color: #ec842d;
+  font-size: 64px;
+  width: 40%;
+}
+.bold {
+  font-weight: bold;
+}
+.dashboard-second-column {
+  width: 50%;
+  height: 100vh;
+  padding-left: 20px;
+}

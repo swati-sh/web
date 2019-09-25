@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="488" height="705" viewBox="0 0 488 705">
+    <defs>
+        <path id="a" d="M.061.677h445.895v389.222H.06z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M-681 0H599v705H-681z"/>
+        <path fill="#1AA9BC" d="M-681 0H599v708H-681z"/>
+        <path fill="#000" d="M327.22 532.463l-172.88 235.37L.822 634.068l39.79-54.176v-.665l194.5-264.763L8 0h248.355l231.012 314.464L327.22 532.463z" opacity=".4"/>
+        <path fill="#FFF" d="M345.823 0L114.839 314.464l230.984 314.463H599L367.065 314.464 599-2z" opacity=".4"/>
+        <g fill="#FFF" font-family="Inter-Regular, Inter" font-size="16" letter-spacing=".444" opacity=".8">
+            <text transform="translate(308 37)">
+                <tspan x="0" y="16">about</tspan>
+            </text>
+            <text transform="translate(308 37)">
+                <tspan x="70" y="16">work</tspan>
+            </text>
+            <text transform="translate(308 37)">
+                <tspan x="133" y="16">join</tspan>
+            </text>
+        </g>
+        <g fill="#FFF">
+            <text font-family="Inter-Regular, Inter" font-size="20" letter-spacing=".556" transform="translate(252 580)">
+                <tspan x=".833" y="19">get in touch</tspan>
+            </text>
+            <path fill-rule="nonzero" d="M399.578 599l7-7-7-7-1.203 1.188 4.953 4.953H382v1.718h21.328l-4.953 4.938z"/>
+        </g>
+        <g fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="104" font-weight="bold" letter-spacing="3.714">
+            <text transform="translate(-569 177)">
+                <tspan x="0" y="101">partner with us</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

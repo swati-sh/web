@@ -1,0 +1,46 @@
+.partner-first-column {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  background-color: #1aa9bc;
+}
+.partner-image-style {
+  height: 100vh;
+  object-fit: cover;
+  object-position: left;
+}
+
+.partner-second-column {
+  width: 50%;
+  background-color: #1aa9bc;
+}
+
+.desc {
+  font-size: 74px;
+}
+
+.partner-description {
+  width: 50%;
+  font-size: 64px;
+}
+.details {
+  display: flex;
+  animation: 3s fadeIn;
+  animation-fill-mode: forwards;
+  transition: opacity 1.5s;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

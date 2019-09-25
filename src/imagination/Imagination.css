@@ -1,0 +1,54 @@
+.img-content {
+  background-color: #5a566d;
+  height: 100vh;
+}
+.imagination {
+  font-size: 104px;
+  letter-spacing: 3.71px;
+}
+.box-first {
+  position: absolute;
+  right: 15%;
+  width: 520px;
+  top: 22%;
+  height: 166px;
+  background-color: #000000;
+}
+.box-sec {
+  width: 300px;
+  bottom: 35%;
+  height: 94px;
+  background-color: #000000;
+  position: absolute;
+}
+.box-third {
+  width: 276px;
+  height: 66px;
+  right: 38%;
+  bottom: 6%;
+  background-color: #000000;
+  position: absolute;
+}
+.img-description {
+  color: #ffffff;
+  position: absolute;
+  z-index: 2;
+  left: 42%;
+  top: 42%;
+  animation: 3s fadeIn;
+  animation-fill-mode: forwards;
+  transition: opacity 1.5s;
+  transform: translate(-50%, -50%);
+}
+.img-desc {
+  font-size: 64px;
+  width: 55%;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

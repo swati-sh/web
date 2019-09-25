@@ -1,0 +1,46 @@
+.contact-description {
+  letter-spacing: 2.29px;
+  color: #4587d4;
+  font-size: 64px;
+  width: 75%;
+}
+.bold {
+  font-weight: bold;
+}
+.contact-second-column {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+  padding-left: 20px;
+}
+.contact-details {
+  background-color: #fff;
+  z-index: 2;
+  bottom: 40px;
+  right: 0px;
+  color: #4587d4;
+  position: absolute;
+  height: 20%;
+  padding: 20px;
+  width: 40%;
+}
+.connect {
+  font-size: 16px;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+}
+.line {
+  border-top: 1px solid #4587d4;
+}
+.contacts-info {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon {
+  padding: 0 20px;
+}
+.contact-icon {
+  padding-top: 20px;
+}
