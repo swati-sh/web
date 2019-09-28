@@ -1,0 +1,210 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  z-index: 99;
+  transition: all 1s ease-in-out;
+}
+
+.header-container__logo {
+  font-family: "RobotoBold";
+  color: #fff;
+}
+
+.header-container__nav {
+  font-family: "Robotothin";
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  color: #fff;
+  display: flex;
+}
+.header-container__nav span {
+  margin-left: 2rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.header-container__nav span:hover {
+  transform: translateY(-2px);
+}
+
+.header-container.retailReimagined .header-container__nav {
+  color: #ef6b5d;
+}
+.header-container.enterpriseSolutions .header-container__nav {
+  color: #c866dc;
+}
+
+.header-container.retailReimagined .header-container__logo {
+  animation: blink 2s;
+}
+.side-menu {
+  position: relative;
+  right: 15%;
+}
+.show-slide-menu {
+  height: 100vh;
+  width: 22em;
+  transform: translateX(-18%);
+  box-sizing: border-box;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 10px 6px 6px #ddd;
+}
+.hide-slide-menu {
+  width: 0;
+  height: 100vh;
+  transform: translateX(50%);
+  transition: 0.5s ease-in-out;
+}
+.hide-slide-menu .menu-content {
+  display: none;
+}
+.slide-menu {
+  right: 0;
+  top: 0;
+  z-index: 2;
+  position: absolute;
+  padding: 20px;
+  background-color: #fff;
+}
+.menu-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.side-header-container {
+  display: block;
+  position: relative;
+}
+.side-header-content {
+  padding-left: 20px;
+  font-weight: bold;
+}
+.close-icon {
+  position: absolute;
+  right: 5%;
+  cursor: pointer;
+}
+.show-icon {
+  width: 20px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 2;
+  right: 0;
+}
+.close-icon > img {
+  margin: 10px;
+  width: 20px;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 6;
+}
+
+.contact-icon-image {
+  margin: 0px 10px;
+}
+
+.nav-container {
+  margin: 10px 0px;
+  color: #4587d4;
+  position: fixed;
+  cursor: pointer;
+  animation: slideIn 4s steps(60, end);
+  animation-name: hide, slideIn;
+  animation-timing-function: ease-in;
+  opacity: 1;
+}
+.nav-container-first {
+  animation-delay: 0s, 0.3s;
+  animation-duration: 1s;
+  top: 35%;
+}
+.nav-container-second {
+  animation-delay: 0s, 0.5s;
+  animation-duration: 1s;
+  top: 40%;
+}
+.nav-container-third {
+  animation-delay: 0s, 0.7s;
+  animation-duration: 1s;
+  top: 45%;
+}
+.nav-container-fourth {
+  animation-delay: 0s, 0.9s;
+  animation-duration: 1s;
+  top: 50%;
+}
+
+.contact-icon-detail {
+  display: flex;
+  justify-content: space-around;
+}
+@keyframes hide {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    right: 40%;
+  }
+  100% {
+    opacity: 1;
+    right: 75%;
+  }
+}
+
+@keyframes mymove {
+  0% {
+    right: 50%;
+  }
+  100% {
+    right: 88%;
+  }
+}
+
+.side-menu-icon {
+  width: 20px;
+  cursor: pointer;
+}
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .side-menu {
+    display: none !important;
+  }
+  .show-slide-menu {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .header-section {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .show-slide-menu {
+    width: 15em;
+  }
+  .show-slide-menu {
+    transform: translate(-27%);
+  }
+}
